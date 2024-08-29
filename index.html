@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Website</title>
+
+    <script src="assets/scripts/script.js"></script>
+    <link rel="stylesheet" href="assets/styles/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <div class="container header-wrapper">
+          <div class="portfolio-info">
+            <h1>Jane Doe</h1>
+            <span class="portfolio-email info-details"
+              ><span class="icon"><img src="assets/images/email.png" /></span
+              >jdoe@jeemail.com</span
+            >
+            <span class="portfolio-number info-details"
+              ><span class="icon"><img src="assets/images/phone.png" /></span
+              >+1345647992</span
+            >
+          </div>
+          <nav>
+            <a href="#about-me">About Me</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#recommendations">Recommendations</a>
+          </nav>
+        </div>
+      </header>
+      <section id="about-me">
+        <div class="container about-me">
+          <div class="about-me-image">
+            <img src="assets/images/profile.jpg" alt="profile pic" />
+          </div>
+          <div class="about-me-desc">
+            <h2>
+              Hi, I'm <span class="name">Jane Doe</span>!
+              <span class="name-icon"
+                ><img src="assets/images/waving-hand.png"
+              /></span>
+            </h2>
+            <p>
+              I am a full stack developer with 2 years of experience in both
+              application and presentation layers. I have worked on applications
+              and microservices deployed on IBM Cloud. I am an avid user of IBM
+              Watson Services and have worked on Watson Assistant, NLU,
+              Sentiment analyzer to name a few.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="skills">
+        <div class="container">
+          <h2 class="section-title">Skills</h2>
+          <div class="skills-wrapper">
+            <div class="skill">
+              <img src="assets/images/html5.png" src="HTML5" />
+              <h3>HTML</h3>
+              <h4>2 years experience</h4>
+            </div>
+            <div class="skill">
+              <img src="assets/images/js.png" src="JavaScript" />
+              <h3>JavaScript</h3>
+              <h4>1.5 years experience</h4>
+            </div>
+            <div class="skill">
+              <img src="assets/images/java.png" src="JAVA" />
+              <h3>Java</h3>
+              <h4>0.5 years experience</h4>
+            </div>
+            <div class="skill">
+              <img src="assets/images/react.png" src="React" />
+              <h3>React</h3>
+              <h4>1 year experience</h4>
+            </div>
+            <div class="skill">
+              <img src="assets/images/node.png" src="Node" />
+              <h3>Node</h3>
+              <h4>1 year experience</h4>
+            </div>
+            <div class="skill">
+              <img src="assets/images/css.png" src="CSS" />
+              <h3>CSS</h3>
+              <h4>2 years experience</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section id="projects">
+        <div class="container">
+          <h2 class="section-title">Projects</h2>
+          <ul class="project-lists">
+            <li>
+              <h3 class="project-title">
+                Responsive Personal Portfolio Website
+              </h3>
+              <ul class="project-list">
+                <li>
+                  Designed and developed a visually appealing and fully
+                  responsive personal portfolio website to showcase my skills,
+                  projects, and achievements. The site features a modern and
+                  user-friendly interface with interactive elements and smooth
+                  animations.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3 class="project-title">
+                Sentiment Analysis and Content Insights Tool
+              </h3>
+              <ul class="project-list">
+                <li>
+                  Developed a web application that leverages IBM Watson Natural
+                  Language Understanding (NLU) to analyze and extract insights
+                  from text data. The tool provides sentiment analysis, emotion
+                  detection, and key concept extraction to help users gain
+                  deeper insights into textual content.
+                </li>
+              </ul>
+            </li>
+            <li>
+              <h3 class="project-title">
+                E-Commerce Platform with Stripe Payment Integration
+              </h3>
+              <ul class="project-list">
+                <li>
+                  Developed a robust e-commerce platform featuring secure
+                  payment processing using Stripe. The application supports
+                  product listing, shopping cart functionality, and seamless
+                  checkout experiences, leveraging Stripe for handling
+                  transactions.
+                </li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section id="recommendations">
+        <div class="container">
+          <h2 class="section-title">Recommendations</h2>
+          <div class="reviews-wrapper">
+            <div class="review">
+              <blockquote>
+                Jane quickly understands key web development concepts and
+                demonstrates a positive attitude and excellent teamwork skills.
+                With her inquisitive nature and ability to ask insightful
+                questions, she takes initiative and shows strong potential for
+                leadership within the team.
+              </blockquote>
+            </div>
+            <div class="review">
+              <blockquote>
+                Collaborating with Jane has been a wonderful experience. Her
+                deep knowledge and dedication to getting things right set her
+                apart. For any upcoming projects that need her expertise, I
+                would be eager to work with her again.
+              </blockquote>
+            </div>
+            <div class="review">
+              <blockquote>
+                I worked with Jane during the early stages of our web
+                development project. Her commitment and extensive knowledge in
+                the domain were impressive. She would be a great asset to any
+                organization!
+              </blockquote>
+            </div>
+          </div>
+          <form id="recommendation-form">
+            <h4>Leave a Recommendation</h4>
+            <input
+              type="text"
+              name="name"
+              id="name"
+              placeholder="Name (optional)"
+            />
+            <textarea placeholder="message" id="message" rows="10"></textarea>
+            <input type="submit" value="Submit" />
+          </form>
+        </div>
+      </section>
+      <button class="back-to-top">top</button>
+    </main>
+  </body>
+</html>
