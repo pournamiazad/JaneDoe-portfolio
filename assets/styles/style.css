@@ -524,6 +524,39 @@ header nav a:not(:last-child) {
   cursor: pointer;
   display: none;
 }
+.modal {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  display: none;
+}
+.modal-inner {
+  background: #fff;
+  padding: 30px 50px;
+  border-radius: 10px;
+}
+.modal-footer {
+  margin-top: 40px;
+  text-align: right;
+}
+.modal-footer button {
+  background: #7600bc;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+  margin-left: 7px;
+}
+.error {
+  font-size: 14px;
+  color: red;
+}
 @media (max-width: 1500px) {
   .container {
     max-width: 90vw;

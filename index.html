@@ -177,11 +177,23 @@
               placeholder="Name (optional)"
             />
             <textarea placeholder="message" id="message" rows="10"></textarea>
+            <span class="error"></span>
             <input type="submit" value="Submit" />
           </form>
         </div>
       </section>
       <button class="back-to-top">top</button>
     </main>
+    <div class="modal">
+      <div class="modal-inner">
+        <div class="modal-body">
+          <p class="modal-text">Do you want to submit the recommendation?</p>
+        </div>
+        <div class="modal-footer">
+          <button id="okay">Okay</button>
+          <button id="cancel">Cancel</button>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
